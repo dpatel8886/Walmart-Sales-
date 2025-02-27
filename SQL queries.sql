@@ -1,17 +1,4 @@
 
-
----highest no of used payment mode
-select payment_method,COUNT(*) cnt
-from walmart
-group by payment_method;
-
---output credit card
-
---No. of branchs
-select COUNT(Distinct branch) from walmart;
- 
- --output 100
-
  -- Business Problems
  --Q1 for each different payment method find number of transactions,no. of qty sold
 
